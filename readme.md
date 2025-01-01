@@ -16,7 +16,7 @@ An Express.js-based image proxy server that fetches images from external URLs an
 Clone the repository:
    ```bash
    git clone <repository_url>
-   cd <repository_folder>```
+   cd <repository_folder>
 ```
 
 Install dependencies:
@@ -38,7 +38,6 @@ Replace <image_url> with the URL of the image you want to fetch.
 Examples
 Fetch an image:
 ```bash
-Copy code
 http://localhost:3000/proxy?url=https://example.com/image.jpg
 ```
 Invalid or missing URL:
