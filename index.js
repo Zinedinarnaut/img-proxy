@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const { URL } = require('url');
 
 const app = express();
-const PORT = 3001;
+const PORT = 80;
 
 // Rate limiter to prevent abuse
 const limiter = rateLimit({
